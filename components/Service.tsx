@@ -20,13 +20,15 @@ const ServicesSection = () => {
     },
     {
       title: 'University Placement',
-      description: 'Direct placement in prestigious Japanese universities',
+      description:
+        'Direct placement in the prestigious Japanese Language School and Universities',
       image: '/services/university.jpg',
       delay: 0.4,
     },
     {
       title: 'Bachelor/SSW Programs',
-      description: 'Specialized preparation for Bachelor and SSW programs',
+      description:
+        'Specialized Language Preparation for Bachelor and SSW programs',
       image: '/services/bachelor.jpg',
       delay: 0.5,
     },
