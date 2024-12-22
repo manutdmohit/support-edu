@@ -70,7 +70,7 @@ const Navbar = () => {
         {/* Desktop Layout */}
         <div className="hidden md:block">
           {/* Top Section with Logo and Name */}
-          <div className="bg-gradient-to-l from-gray-400 to-gray-200">
+          <div className="bg-gradient-to-l from-gray-300 to-gray-200">
             <div className="w-full max-w-7xl mx-auto flex items-center justify-center space-x-4 h-20">
               <Link href="/" className="flex items-center space-x-4">
                 <Image
@@ -89,7 +89,7 @@ const Navbar = () => {
           </div>
 
           {/* Bottom Section with Navigation */}
-          <div className="bg-[#005CAA]">
+          <div className="bg-gray-500">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-4 py-2">
               <div className="flex items-center justify-center space-x-4">
                 {[
@@ -109,14 +109,14 @@ const Navbar = () => {
                         ? 'test-preparation'
                         : item.toLowerCase()
                     }`}
-                    className="text-white bg-[#a3055b] hover:text-blue-900 px-4 py-2 rounded text-lg font-mono font-bold  transition-all duration-300 hover:bg-blue-50"
+                    className="text-white bg-[#005CAA] hover:text-blue-900 px-4 py-2 rounded text-lg font-mono font-bold  transition-all duration-300 hover:bg-blue-50"
                   >
                     {item}
                   </Link>
                 ))}
                 <button
                   onClick={() => setIsDialogOpen(true)}
-                  className="bg-red-600 text-white px-6 py-2 rounded-full text-sm font-medium hover:bg-red-700 transition-all duration-300 shadow-md hover:shadow-lg"
+                  className="bg-[#005CAA] text-white px-6 py-3 rounded-full text-sm font-medium hover:bg-red-700 transition-all duration-300 shadow-md hover:shadow-lg"
                 >
                   Apply Now
                 </button>
