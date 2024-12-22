@@ -9,6 +9,7 @@ import {
   FaUsers,
   FaCheckCircle,
 } from 'react-icons/fa';
+import DirectorMessage from '@/components/DirectorMessage';
 
 const AboutPage = () => {
   const features = [
@@ -136,6 +137,9 @@ const AboutPage = () => {
           </div>
         </div>
       </section>
+
+      {/* Director Message */}
+      <DirectorMessage />
     </>
   );
 };

@@ -7,10 +7,14 @@ const DirectorMessage = () => {
   return (
     <section className="py-16 bg-gradient-to-b from-gray-50 to-white">
       <div className="container mx-auto px-4">
+        {/* Title Section */}
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
+          transition={{
+            duration: 0.8,
+            ease: 'easeOut',
+          }}
           className="text-center mb-12"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">
@@ -18,28 +22,35 @@ const DirectorMessage = () => {
           </h2>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-8 items-center max-w-6xl mx-auto">
+        {/* Content Section */}
+        <div className="grid md:grid-cols-2 gap-8 items-center max-w-5xl mx-auto">
           {/* Director's Image */}
           <motion.div
-            initial={{ opacity: 0, x: -50 }}
+            initial={{ opacity: 0, x: -100 }}
             whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6 }}
+            transition={{
+              duration: 0.8,
+              ease: 'easeOut',
+            }}
             className="relative"
           >
-            <div className="relative aspect-square overflow-hidden rounded-2xl shadow-xl">
+            <div className="relative aspect-square overflow-hidden rounded-xl shadow-lg w-60 h-60 mx-auto">
               <Image
                 src="/director.jpg"
                 alt="Director"
                 fill
-                className="object-cover transition-transform duration-300 hover:scale-105"
+                className="object-cover transition-transform duration-500 hover:scale-110"
                 priority
               />
             </div>
             <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ delay: 0.3 }}
-              className="absolute -bottom-4 -right-4 bg-blue-900 text-white py-2 px-4 rounded-lg"
+              initial={{ scale: 0, opacity: 0 }}
+              whileInView={{ scale: 1, opacity: 1 }}
+              transition={{
+                duration: 0.5,
+                delay: 0.4,
+              }}
+              className="absolute -bottom-6 -right-6 bg-blue-900 text-white py-2 px-4 rounded-lg shadow-md"
             >
               <h3 className="text-lg font-semibold">Mr. Bibek Pathak</h3>
               <p className="text-sm">Director</p>
@@ -48,15 +59,22 @@ const DirectorMessage = () => {
 
           {/* Message Content */}
           <motion.div
-            initial={{ opacity: 0, x: 50 }}
+            initial={{ opacity: 0, x: 100 }}
             whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
+            transition={{
+              duration: 0.8,
+              delay: 0.2,
+              ease: 'easeOut',
+            }}
             className="space-y-6"
           >
             <motion.p
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ delay: 0.4 }}
+              transition={{
+                duration: 0.6,
+                delay: 0.3,
+              }}
               className="text-gray-600 leading-relaxed"
             >
               "Welcome to Support Educational Consultancy! Our mission is to
@@ -68,7 +86,10 @@ const DirectorMessage = () => {
             <motion.p
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ delay: 0.5 }}
+              transition={{
+                duration: 0.7,
+                delay: 0.4,
+              }}
               className="text-gray-600 leading-relaxed"
             >
               "We understand the challenges and opportunities that come with
@@ -80,7 +101,10 @@ const DirectorMessage = () => {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ delay: 0.6 }}
+              transition={{
+                duration: 0.8,
+                delay: 0.5,
+              }}
               className="pt-4"
             >
               <div className="flex flex-col space-y-2">
