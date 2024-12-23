@@ -26,13 +26,13 @@ const DirectorMessage = () => {
         </motion.div>
 
         {/* Content Section */}
-        <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
           {/* Director's Circular Image */}
           <motion.div
             initial={{ opacity: 0, x: -100 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, ease: 'easeOut' }}
-            className="relative flex justify-center"
+            className="relative flex justify-center md:self-start pt-8"
           >
             <div className="rounded-full overflow-hidden shadow-xl w-64 h-64 md:w-80 md:h-80">
               <Image
@@ -49,10 +49,10 @@ const DirectorMessage = () => {
               initial={{ scale: 0, opacity: 0 }}
               whileInView={{ scale: 1, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.4 }}
-              className="absolute -bottom-6 bg-blue-900 text-white py-3 px-6 rounded-lg shadow-xl"
+              className="absolute -bottom-5 bg-blue-900 text-white py-3 px-6 rounded-lg shadow-xl"
             >
               <h3 className="text-lg font-semibold">Mr. Bibek Pathak</h3>
-              <p className="text-sm">Director</p>
+              <p className="text-sm">Managing Director</p>
             </motion.div>
           </motion.div>
 
@@ -69,11 +69,16 @@ const DirectorMessage = () => {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="text-lg md:text-xl text-gray-700 leading-relaxed"
             >
-              "Welcome to Support Educational Consultancy! Our mission is to
-              empower students to achieve their dream of studying in Japan. With
-              years of expertise, we ensure that every student receives
-              personalized support, from language preparation to university
-              placements."
+              "Welcome to Support Educational Consultancy! We're passionate
+              about helping students experience the incredible opportunity of
+              studying in Japan. Our deep connection with Japan, cultivate over
+              10 years of living and exploring the Japan & their culture, allows
+              us to proved truly insightful and effective support. As a
+              language-based consultancy, we understand the crucial role of
+              language proficiency and prioritize language development alongside
+              academic preparation. We handle everything from language
+              preparation to university placement, ensuring a smooth and
+              successful transition to your new academic adventure."
             </motion.p>
 
             <motion.p
@@ -82,9 +87,7 @@ const DirectorMessage = () => {
               transition={{ duration: 0.7, delay: 0.4 }}
               className="text-lg md:text-xl text-gray-700 leading-relaxed"
             >
-              "We are committed to guiding you through every step of your
-              educational journey. Together, we can make your ambitions a
-              reality."
+              "We're here to Support your Dream, every step of the way"
             </motion.p>
 
             <motion.div
@@ -97,7 +100,7 @@ const DirectorMessage = () => {
                 <span className="text-xl text-blue-900 font-bold">
                   Mr. Bibek Pathak
                 </span>
-                <span className="text-lg text-gray-500">Director</span>
+                <span className="text-lg text-gray-500">Managing Director</span>
                 <span className="text-lg text-gray-500">
                   Support Educational Consultancy
                 </span>
