@@ -40,7 +40,7 @@ const AboutPage = () => {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative h-[400px] overflow-hidden">
+      <section className="relative h-[525px] overflow-hidden">
         <div className="absolute inset-0">
           <Image
             src="/about/1.jpg"
@@ -69,7 +69,7 @@ const AboutPage = () => {
       </section>
 
       {/* Main Content */}
-      <section className="py-20">
+      <section className="py-20 md:mt-5">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
             <motion.div
