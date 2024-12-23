@@ -172,7 +172,8 @@ const HeroSection = () => {
                   size={36}
                 />
 
-                <p className="text-2xl text-white text-left font-bold font-mono leading-relaxed">
+                {/* Introduction */}
+                <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white text-left font-bold font-mono leading-relaxed">
                   Dreaming of studying in Japan? Support Educational Consultancy
                   is your dedicated partner in navigating the journey to
                   Japanese education. We specialize in guiding Nepalese students
