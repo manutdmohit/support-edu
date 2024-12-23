@@ -8,96 +8,67 @@ import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 const galleryItems = [
   {
     id: 1,
-    image: '/gallery/student1.jpg',
-    title: 'JLPT N2 Success',
-    description: 'Our students celebrating their JLPT N2 certification success',
+    image: '/gallery/1.jpeg',
+    title: 'Visa Success Story',
+    description:
+      ' A proud student showcasing his Japanese visa in front of the Support Educational Consultancy logo wall, representing another successful step towards realizing his academic dreams in Japan',
   },
   {
     id: 2,
-    image: '/gallery/student1.jpg',
-    title: 'JLPT N2 Success',
-    description: 'Our students celebrating their JLPT N2 certification success',
+    image: '/gallery/2.jpeg',
+    title: 'Student Achievement',
+    description:
+      "A successful student proudly displaying her Japanese visa, marking another milestone in Support Educational Consultancy's commitment to helping students achieve their study abroad goals.",
   },
   {
     id: 3,
-    image: '/gallery/student1.jpg',
-    title: 'JLPT N2 Success',
-    description: 'Our students celebrating their JLPT N2 certification success',
+    image: '/gallery/3.jpeg',
+    title: 'Professional Work Station',
+    description:
+      'Our well-equipped office space featuring Japanese university brochures, modern facilities, and a professional setup to assist students with their educational journey to Japan.',
   },
   {
     id: 4,
-    image: '/gallery/student1.jpg',
-    title: 'JLPT N2 Success',
-    description: 'Our students celebrating their JLPT N2 certification success',
+    image: '/gallery/4.jpeg',
+    title: 'Gateway to Japan',
+    description:
+      'An eye-catching entrance featuring our iconic torii gate wall art and company branding, symbolizing the pathway to Japanese education opportunities through Support Educational Consultancy',
   },
   {
     id: 5,
-    image: '/gallery/student1.jpg',
-    title: 'JLPT N2 Success',
-    description: 'Our students celebrating their JLPT N2 certification success',
+    image: '/gallery/5.jpeg',
+    title: 'Resource Center',
+    description:
+      'Our professional office environment showcasing educational materials, modern equipment, and aesthetic display units, reflecting our commitment to quality service and Japanese education counseling.',
   },
   {
     id: 6,
-    image: '/gallery/student1.jpg',
-    title: 'JLPT N2 Success',
-    description: 'Our students celebrating their JLPT N2 certification success',
+    image: '/gallery/6.jpeg',
+    title: 'Professional Reception Area',
+    description:
+      'A welcoming reception space showcasing modern design elements with wooden accents, custom lighting, and an informative Japanese map display, creating a professional learning environment.',
   },
   {
     id: 7,
-    image: '/gallery/student1.jpg',
-    title: 'JLPT N2 Success',
-    description: 'Our students celebrating their JLPT N2 certification success',
+    image: '/gallery/7.jpeg',
+    title: 'Our Modern Office Building',
+    description:
+      "Support Educational Consultancy's contemporary office building featuring a striking blue glass facade, centrally located in Bagbazar, Kathmandu, offering easy accessibility to students.",
   },
   {
     id: 8,
-    image: '/gallery/student1.jpg',
-    title: 'JLPT N2 Success',
-    description: 'Our students celebrating their JLPT N2 certification success',
+    image: '/gallery/8.jpeg',
+    title: 'Japanese Language Classroom',
+    description:
+      'A dedicated learning space equipped with essential Japanese language materials including Hiragana and Katakana charts, designed for effective language instruction and student comfort.',
   },
   {
     id: 9,
-    image: '/gallery/student1.jpg',
-    title: 'JLPT N2 Success',
-    description: 'Our students celebrating their JLPT N2 certification success',
+    image: '/gallery/9.jpeg',
+    title: 'Student Success Story',
+    description:
+      'A proud student displaying their newly received visa document in front of the Support Educational Consultancy logo wall, marking another successful step towards their Japanese education journey',
   },
-  {
-    id: 10,
-    image: '/gallery/student1.jpg',
-    title: 'JLPT N2 Success',
-    description: 'Our students celebrating their JLPT N2 certification success',
-  },
-  {
-    id: 11,
-    image: '/gallery/student1.jpg',
-    title: 'JLPT N2 Success',
-    description: 'Our students celebrating their JLPT N2 certification success',
-  },
-  {
-    id: 12,
-    image: '/gallery/student1.jpg',
-    title: 'JLPT N2 Success',
-    description: 'Our students celebrating their JLPT N2 certification success',
-  },
-  {
-    id: 13,
-    image: '/gallery/student1.jpg',
-    title: 'JLPT N2 Success',
-    description: 'Our students celebrating their JLPT N2 certification success',
-  },
-  {
-    id: 14,
-    image: '/gallery/student1.jpg',
-    title: 'JLPT N2 Success',
-    description: 'Our students celebrating their JLPT N2 certification success',
-  },
-  {
-    id: 15,
-    image: '/gallery/student1.jpg',
-    title: 'JLPT N2 Success',
-    description: 'Our students celebrating their JLPT N2 certification success',
-  },
-
-  // Add more gallery items
 ];
 
 const GalleryPage = () => {
