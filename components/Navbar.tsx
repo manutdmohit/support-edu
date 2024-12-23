@@ -126,13 +126,13 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Layout */}
-        <div className="md:hidden bg-[#000080]">
+        <div className="md:hidden bg-gradient-to-l from-gray-300 to-gray-200">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center justify-between h-16">
+            <div className=" flex items-center justify-between h-16">
               <Link href="/" className="flex items-center space-x-3">
                 <div className="relative w-10 h-10">
                   <Image
-                    src="/support-logo-main.jpg"
+                    src="/support-logo-main-removebg-preview.png"
                     alt="Support Educational Consultancy"
                     className="h-12 w-12 object-contain"
                     width={48}
@@ -140,7 +140,7 @@ const Navbar = () => {
                     priority
                   />
                 </div>
-                <span className="text-sm font-bold text-white">
+                <span className="text-sm font-bold text-[#005CAA] hover:text-[#005AB5]">
                   Support Educational Consultancy
                 </span>
               </Link>
