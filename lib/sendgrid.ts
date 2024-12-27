@@ -15,7 +15,7 @@ export const sendEmail = async (formData: {
 
   if (!fullName && !phone && !message) {
     emailContent = {
-      to: 'mohitdev4444@gmail.com',
+      to: 'sup.educational@gmail.com',
       from: 'mohitdev4444@gmail.com',
       subject: `New Application from ${email}`,
       html: `
